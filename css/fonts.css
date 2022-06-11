@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url(../fonts/Helvetica.ttf);
+}
+
+@font-face {
+    font-family: "Helvetica-Bold";
+    src: url(../fonts/Helvetica-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Helvetica-Oblique";
+    src: url(../fonts/Helvetica-Oblique.ttf);
+}
+
+@font-face {
+    font-family: "Acuimin";
+    src: url(../fonts/Acumin-RPro.otf);
+}
+
+@font-face {
+    font-family: "Acuimin-Bold";
+    src: url(../fonts/Acumin-BdPro.otf);
+}
