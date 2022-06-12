@@ -20,3 +20,123 @@ ul {
 img {
     max-width: 100%;
 }
+
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #F6F8F9;
+    padding: 7px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.navbar-logo a {
+    font-size: 13px;
+    color: #FA6980;
+}
+
+.navbar-logo a:hover {
+    opacity: 60%;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav li {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navbar-nav li a {
+    color: #343638;
+    opacity: 50%;
+}
+
+.navbar-nav li a:hover {
+    color: #343638;
+    opacity: 100%;
+}
+
+.navbar-nav li a {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+}
+
+.nav-profile {
+    margin-left: 30px;
+}
+
+
+/*Head Section*/
+.head-section {
+    display: flex;
+    align-items: center;
+}
+
+.head-section .hero {
+    position: relative;
+    background: url(../img/Image.png);
+    height: 600px;
+    max-width: 840px;
+    width: 100%;
+}
+
+.head-section .hero .hero-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 247px;
+    max-width: 600px;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.head-section .hero .hero-absolute h2 {
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 30px;
+}
+
+.head-section .hero .hero-absolute .hero-cont button {
+    background-color: #FF2288;
+    color: #ffffff;
+    height: 40px;
+    width: 134px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.head-section .hero .hero-absolute .hero-cont button:hover {
+    background-color: #d61d73;
+}
+
+.more-news {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.more-news .more-news-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #EBEDED;
+    padding-bottom: 30px;
+}
