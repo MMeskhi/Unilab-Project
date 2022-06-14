@@ -42,6 +42,7 @@ img {
 .navbar-logo a {
     font-size: 13px;
     color: #FA6980;
+    transition: all 0.3s ease;
 }
 
 .navbar-logo a:hover {
@@ -61,6 +62,7 @@ img {
 .navbar-nav li a {
     color: #343638;
     opacity: 50%;
+    transition: all 0.3s ease;
 }
 
 .navbar-nav li a:hover {
@@ -75,7 +77,15 @@ img {
 }
 
 .nav-profile {
+    height: 30px;
+    max-width: 30px;
+    width: 100%;
     margin-left: 30px;
+    transition: all 0.3s ease;
+}
+
+.nav-profile:hover {
+    opacity: 80%;
 }
 
 
@@ -123,6 +133,7 @@ img {
     border: none;
     cursor: pointer;
     margin-top: 20px;
+    transition: all 0.2s ease;
 }
 
 .head-section .hero .hero-absolute .hero-cont button:hover {
@@ -152,6 +163,7 @@ img {
 
 .arrows i {
     cursor: pointer;
+    transition: all 0.2s ease;
 }
 
 .arrows i:hover {
@@ -287,6 +299,33 @@ img {
     height: 430px;
 }
 
+.upper-absolute {
+    color: #ffffff;
+    position: absolute;
+    left: 5%;
+    top: 7%;
+}
+
+.lower-absolute {
+    position: absolute;
+    left: 5%;
+    bottom: 7%;
+}
+
+.lower-absolute a {
+    font-size: 23px;
+    color: #ffffff;
+}
+
+.lower-absolute p {
+    color: #ffffff;
+    margin: 0 0 20px 0;
+}
+
+.lower-absolute .time {
+    color: #CBD0D3;
+}
+
 .happeningnow-small-cont {
     display: flex;
     justify-content: space-between;
@@ -309,4 +348,96 @@ img {
     font-size: 16px;
     color: #222222;
     margin-top: 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #A6ADB4;
+    padding: 55px;
+    margin-top: 100px;
+    height: 200px;
+}
+
+.footer-cont {
+    max-width: 1160px;
+    margin: auto;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-ul {
+    display: flex;
+}
+
+.footer-row .footer-ul div {
+    margin-right: 40px;
+}
+
+.footer-col ul li a {
+    font-size: 13px;
+    color: #CBD0D3;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-ul .navbar-logo a {
+    color: #ffffff;
+}
+
+.search input {
+    height: 40px;
+    width: 262px;
+    text-align: left;
+    text-indent: 10px;
+    background-color: transparent;
+    border: 1px solid #CBD0D3;
+    outline: none;
+    border-radius: 6px;
+}
+
+.search input::placeholder {
+    color: #CBD0D3;
+}
+
+.search {
+    position: relative;
+}
+
+.search img {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.search p {
+    font-size: 11px;
+    color: #CBD0D3;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin-right: 25px;
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.footer-col .social-links a:last-child {
+    margin-right: 0px;
+}
+
+.footer-col .social-links a:hover {
+    color: #CBD0D3;
 }
