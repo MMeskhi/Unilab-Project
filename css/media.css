@@ -1,0 +1,130 @@
+@media all and (max-width: 1024px) {
+    .container {
+        max-width: 800px;
+    }
+
+    .head-section {
+        flex-wrap: wrap;
+    }
+
+    .head-section .hero {
+        width: 100%;
+    }
+
+    .more-news {
+        width: 100%;
+    }
+
+    .trending-cont-box {
+        max-width: 284px;
+    }
+
+    .footer-row {
+        justify-content: center;
+    }
+
+    .social-links {
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        max-width: 608px;
+    }
+
+    .hd {
+        display: none;
+    }
+
+    .happeningnow-cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .happeningnow-large-cont {
+        width: 100%;
+    }
+
+    .happeningnow-small-cont {
+        height: auto;
+        width: 100%;
+        flex-direction: row;
+        align-content: center;
+        margin-top: 40px;
+    }
+
+    .happeningnow-small-cont-box {
+        max-width: 284px;
+    }
+
+    footer {
+        height: auto;
+        padding: 50px;
+    }
+
+    .footer-row {
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search {
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .container {
+        max-width: 327px;
+    }
+
+    .navbar ul li {
+        display: none;
+    }
+
+    .head-section .hero .hero-absolute {
+        width: 80%;
+    }
+
+    .trending-cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trending-cont-box {
+        margin-top: 30px;
+    }
+
+    .happeningnow-cont {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .happeningnow-large-cont-upper,
+    .happeningnow-large-cont-lower {
+        height: 300px;
+        max-width: 327px;
+    }
+
+    .happeningnow-large-cont {
+        height: 640px;
+    }
+
+    .happeningnow-small-cont {
+        flex-direction: column;
+    }
+
+    .happeningnow-small-cont-box {
+        max-width: 327px;
+        margin-bottom: 80px;
+    }
+
+    .happeningnow-small-cont .hd {
+        display: unset;
+    }
+
+    footer {
+        display: none;
+    }
+}

@@ -207,7 +207,7 @@ img {
 
 
 /*Trending Section*/
-.trending-section {
+.container {
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -255,11 +255,6 @@ img {
 }
 
 /*Happening-Now Section*/
-.happeningnow {
-    max-width: 1160px;
-    margin: 0 auto;
-}
-
 .happeningnow .happeningnow-title {
     display: flex;
     justify-content: space-between;
@@ -330,7 +325,7 @@ img {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 840px;
+    height: 850px;
     width: 31%;
 }
 
@@ -357,11 +352,6 @@ footer {
     padding: 55px;
     margin-top: 100px;
     height: 200px;
-}
-
-.footer-cont {
-    max-width: 1160px;
-    margin: auto;
 }
 
 .footer-row {
@@ -400,8 +390,17 @@ footer {
     text-indent: 10px;
     background-color: transparent;
     border: 1px solid #CBD0D3;
+    color: #ffffff;
     outline: none;
     border-radius: 6px;
+}
+
+.search input:hover {
+    border: 1px solid #ffffff;
+}
+
+.search input:focus {
+    border: 1px solid #ffffff;
 }
 
 .search input::placeholder {
