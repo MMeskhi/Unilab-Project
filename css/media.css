@@ -19,6 +19,10 @@
         max-width: 284px;
     }
 
+    .happeningnow-small-cont {
+        justify-content: center;
+    }
+
     .footer-row {
         justify-content: center;
     }
@@ -51,6 +55,7 @@
         width: 100%;
         flex-direction: row;
         align-content: center;
+        justify-content: space-between;
         margin-top: 40px;
     }
 
@@ -79,12 +84,21 @@
         max-width: 327px;
     }
 
-    .navbar ul li {
+    .navbar {
+        position: fixed;
+        z-index: 99;
+    }
+
+    .navbar-nav li {
         display: none;
     }
 
     .head-section .hero .hero-absolute {
         width: 80%;
+    }
+
+    .more-news {
+        padding: 50px;
     }
 
     .trending-cont {
@@ -126,5 +140,10 @@
 
     footer {
         display: none;
+    }
+
+
+    .hamburger {
+        display: block;
     }
 }
