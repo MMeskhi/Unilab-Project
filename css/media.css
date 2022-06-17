@@ -163,4 +163,16 @@
     .hamburger {
         display: block;
     }
+
+    .worldnews-head .hero .hero-absolute {
+        max-width: 250px;
+    }
+
+    .worldnews-middle-cont-text div {
+        width: 100%;
+    }
+
+    .worldnews-middle-cont-text div:not(:first-child) {
+        margin-top: 40px;
+    }
 }
