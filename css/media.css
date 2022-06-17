@@ -77,6 +77,19 @@
     .search {
         margin-top: 30px;
     }
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .msg textarea {
+        height: 80px;
+    }
+
+    .input-fields,
+    .msg {
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 480px) {
@@ -98,6 +111,10 @@
     }
 
     .more-news {
+        padding: 50px;
+    }
+
+    .date {
         padding: 50px;
     }
 

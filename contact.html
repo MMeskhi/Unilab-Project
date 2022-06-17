@@ -116,51 +116,32 @@
     </header>
 
     <!-- Head Section -->
-    <seaction class="worldnews-head">
-        <div class="worldnews-head-title container">
-            <div class="worldnews-head-main">
-                <img src="img/home.svg" alt="Home">
-                <p><span class="story">STORY</span>/<span class="world">WORLD NEWS</span></p>
+    <setion class="contact container">
+        <div class="contact-us">
+            <div class="title">
+                <h1>CONTACT US</h1>
             </div>
-            <div class="worldnews-head-filter">
-                <button type="submit">
-                    <img src="img/filter.svg" alt="Filter">
-                </button>
-            </div>
-        </div>
-        <div class="worldnews-head-cont container">
-            <div class="hero">
-                <div class="hero-absolute">
-                    <h2>WORLD NEWS</h2>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto vidit.</p>
-                    <img src="img/avatar.png" alt="Avatar">
+            <div class="contact-form">
+                <div class="input-fields">
+                    <input type="text" class="input" placeholder="Name">
+                    <input type="text" class="input" placeholder="Email Address">
+                    <input type="text" class="input" placeholder="Phone">
+                    <input type="text" class="input" placeholder="Subject">
                 </div>
-            </div>
-
-            <div class="date">
-                <div class="date-dropdown">
-                    <span>Select a date</span>
-                    <div class="dropdown">
-                        <div class="select">
-                            <span>Select...</span>
-                            <i class="fa fa-chevron-down"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="date-keyword">
-                    <span>Enter the first keywords</span>
-                    <div class="dropdown">
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="date-search">
-                    <button type="button">Search</button>
+                <div class="msg">
+                    <textarea placeholder="Message"></textarea>
+                    <button>SEND</button>
                 </div>
             </div>
         </div>
-
-    </seaction>
+        <div id="map"></div>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-solid fa-earth-europe"></i></a>
+        </div>
+    </setion>
 
     <!-- Footer -->
     <footer>
@@ -214,6 +195,10 @@
     </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/map.js"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtrPb_vjzSUn1ao_ZOnXuBIB03qMLdwOc&region=GEO&callback=initMap">
+        </script>
 </body>
 
 </html>
